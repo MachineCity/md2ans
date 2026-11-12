@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "md2ans"
+version = "1.0.0"
+description = "Classic 80s BBS / DOS ANSI Art Markdown Viewer & CLI Renderer"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "md2ans" }]
+dependencies = []
+
+[project.scripts]
+md2ans = "md2ans.cli:main"
